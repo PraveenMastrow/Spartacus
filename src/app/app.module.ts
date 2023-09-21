@@ -17,6 +17,7 @@ import { TaskFooterDialogManagementModule } from './spartacus/features/cart/base
 import { TaskNavigationModule } from './spartacus/features/navigation/navigation-model';
 import { MINI_CART_FEATURE } from '@spartacus/cart/base/root';
 import { USER_PROFILE_FEATURE } from '@spartacus/user/profile/root';
+import { TaskRegisterComponentModule } from './spartacus/features/user/account/profile/components/register/register.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -29,15 +30,13 @@ import { USER_PROFILE_FEATURE } from '@spartacus/user/profile/root';
     SpartacusModule,
     TaskProductSummaryModule,
     TaskFlexComponentModule,
-    // TaskRegisterComponentModule,
+    TaskRegisterComponentModule,
     ProductBindingModule,
     TaskSavedCartDetailsModule,
     TaskCartSharedModule,
     TaskFooterDialogManagementModule,
     TaskFooterDialogModule,
     TaskNavigationModule,
-    // TaskFooterNavigationModule,
-    // TaskNavigationModule,
   ],
   providers: [
     provideConfig(<CmsConfig>{

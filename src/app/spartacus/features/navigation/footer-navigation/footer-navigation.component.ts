@@ -15,13 +15,6 @@ import { FooterNavigationComponent, CmsComponentData, NavigationService } from '
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TaskFooterNavigationComponent extends FooterNavigationComponent{
-  // node$: Observable<NavigationNode> = this.service.getNavigationNode(
-  //   this.componentData.data$
-  // );
-
-  // styleClass$: Observable<string | undefined> = this.componentData.data$.pipe(
-  //   map((d) => d?.styleClass)
-  // );
 
   constructor(
      componentData: CmsComponentData<CmsNavigationComponent>,
@@ -29,6 +22,5 @@ export class TaskFooterNavigationComponent extends FooterNavigationComponent{
   ) {
     super(componentData,service);
     console.log("TaskFooterNavigationComponent");
-
   }
 }

@@ -9,6 +9,7 @@ import {
 
 export const taskComponents: {[key: string]: ContentSlotComponentData | any;} = {
 
+  // create flexcomponent frontend instead of impex (backend)
   SearchBoxComponent: {
     typeCode: 'SearchBoxComponent',
     flexType: 'SearchBoxComponent',
@@ -26,7 +27,7 @@ export const taskPages: CmsPageConfig[] = [
     template: 'ContentPage1Template',
     slots: {
       Section2C: {
-        componentIds: ['TaskFooterOpenDialogComponent'],
+        componentIds: ['SearchBoxComponent'],
       },
     },
   },

@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { NgSelectModule } from '@ng-select/ng-select';
 import {
   CmsConfig,
+  ConfigModule,
   GlobalMessageService,
   I18nModule,
   NotAuthGuard,
@@ -33,21 +34,21 @@ import { RegisterComponentService } from '@spartacus/user/profile/components';
     NgSelectModule,
     NgSelectA11yModule,
     PasswordVisibilityToggleModule,
-    // ConfigModule.withConfig({
-    //   cmsComponents: {
-    //     RegisterCustomerComponent: {
-    //       component: TaskRegisterComponent,
-    //       guards: [NotAuthGuard],
-    //       providers: [
-    //         {
-    //           provide: RegisterComponentService,
-    //           useClass: RegisterComponentService,
-    //           deps: [UserRegisterFacade, GlobalMessageService],
-    //         },
-    //       ],
-    //     },
-    //   },
-    // })
+    ConfigModule.withConfig({
+      cmsComponents: {
+        RegisterCustomerComponent: {
+          component: TaskRegisterComponent,
+          guards: [NotAuthGuard],
+          providers: [
+            {
+              provide: RegisterComponentService,
+              useClass: RegisterComponentService,
+              deps: [UserRegisterFacade, GlobalMessageService],
+            },
+          ],
+        },
+      },
+    })
   ],
   providers: [
     // provideDefaultConfig(<CmsConfig>{
