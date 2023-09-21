@@ -1,0 +1,22 @@
+<ng-container *ngIf="product$ | async as product">
+  <ng-template
+    [cxOutlet]="outlets.PRICE"
+    [cxOutletContext]="{ product: product }"
+  >
+    <div
+      [attr.aria-label]="'productSummary.newItemPrice' | cxTranslate"
+      class="price"
+    >
+      {{ product?.price?.formattedValue }}
+      <span> {{product?.taskAugment }}</span>
+    </div>
+  </ng-template>
+
+  <ng-template
+    [cxOutlet]="outlets.SUMMARY"
+    [cxOutletContext]="{ product: product }"
+  >
+    <p [innerHTML]="product?.summary" class="summary"></p>
+  </ng-template>
+</ng-container>
+<!-- <p>Testing the Custom Product Summary Component</p> -->

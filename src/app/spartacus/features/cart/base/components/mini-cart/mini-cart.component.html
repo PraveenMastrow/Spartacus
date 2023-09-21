@@ -1,0 +1,18 @@
+<a
+  [attr.aria-label]="
+    'miniCart.item' | cxTranslate
+  "
+  [routerLink]="{ cxRoute: 'cart' } | cxUrl"
+>
+  <cx-icon [type]="iconTypes.CLOCK"></cx-icon>
+
+  <span class="total">
+    {{ 'miniCart.total' | cxTranslate: { total: total$ | async } }}
+  </span>
+
+  <span class="count" *ngIf="entries$ | async as entries">
+    {{ entries.length  }}
+  </span>
+ 
+  <!-- <span>{{ 'miniCart.cartText' | cxTranslate}}</span> -->
+</a>

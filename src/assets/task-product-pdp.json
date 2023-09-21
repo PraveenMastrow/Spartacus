@@ -1,0 +1,84 @@
+{
+    "availableForPickup": true,
+    "averageRating": 4.5,
+    "categories": [
+        {
+            "code": "576",
+            "name": "Digital Compacts",
+            "url": "/Open-Catalogue/Cameras/Digital-Cameras/Digital-Compacts/c/576"
+        },
+        {
+            "code": "brand_1",
+            "name": "HP",
+            "url": "/Brands/HP/c/brand_1"
+        }
+    ],
+    "code": "300938",
+    "description": "Get point and shoot simplicity plus crisp, true-to-life photos with this stylish and easy-to-use camera.<br/><br/>Get close in with 4x digital zoom, review via the clear 3.8 cm LCD then print great 10 × 15 cm photos and enlargements up to poster size.",
+    "images": [
+        {
+            "altText": "Photosmart E317 Digital Camera",
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "/medias/?context=bWFzdGVyfGltYWdlc3wxMzkzNnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU5TOW9PVEV2T0RjNU56TXdNelUzTURRMk1pNXFjR2N8NGI5NjIzNmVjOTQxOTQzMTE0YzdhZDE3ODI4N2I1Yjg0MDU3ODM0MmY0YjNjOTEyMjZmMGFiZjE3MmNiOTVlMw"
+        },
+        {
+            "altText": "Photosmart E317 Digital Camera",
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "/medias/?context=bWFzdGVyfGltYWdlc3w3MDg1fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhtTkM5b1lqUXZPRGM1TnpNeU9UZzFNRE01T0M1cWNHY3w1OGNhMzAzZjM4MDRiMzExMWY2YmY0YTcwZDg1NmJiYmYwYjdhODQwOTcyY2RhYjY2MDk5NWZhYjMxZmNmMzBl"
+        },
+        {
+            "altText": "Photosmart E317 Digital Camera",
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "/medias/?context=bWFzdGVyfGltYWdlc3wyMDYxfGltYWdlL2pwZWd8YVcxaFoyVnpMMmhtTnk5b1l6TXZPRGM1TnpNMU5qRTVOVGczTUM1cWNHY3w3NDc0YmM4OWFmYWFjYjhlZTdmYjUyNmYyMzI4ZDM3ZWIxZWIxYTQxOTg5NzZhMjNmMTljNjgxYTljNDFlMTk1"
+        },
+        {
+            "altText": "Photosmart E317 Digital Camera",
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "/medias/?context=bWFzdGVyfGltYWdlc3wxNDQwfGltYWdlL2pwZWd8YVcxaFoyVnpMMmc0WlM5b1l6Z3ZPRGM1TnpNNE1qVTBNVE0wTWk1cWNHY3wzYjYyYmRmOTMyYzE1NDNhYjFjZTY3Nzc3MjM1Njc4NDAxMGJmMzNjOTQ1ODQyMzhiNDgzMWI5OWVkYTY1MjA5"
+        },
+        {
+            "altText": "Photosmart E317 Digital Camera",
+            "format": "zoom",
+            "galleryIndex": 0,
+            "imageType": "GALLERY",
+            "url": "/medias/?context=bWFzdGVyfGltYWdlc3wxMzkzNnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaU5TOW9PVEV2T0RjNU56TXdNelUzTURRMk1pNXFjR2N8NGI5NjIzNmVjOTQxOTQzMTE0YzdhZDE3ODI4N2I1Yjg0MDU3ODM0MmY0YjNjOTEyMjZmMGFiZjE3MmNiOTVlMw"
+        },
+        {
+            "altText": "Photosmart E317 Digital Camera",
+            "format": "product",
+            "galleryIndex": 0,
+            "imageType": "GALLERY",
+            "url": "/medias/?context=bWFzdGVyfGltYWdlc3w3MDg1fGltYWdlL2pwZWd8YVcxaFoyVnpMMmhtTkM5b1lqUXZPRGM1TnpNeU9UZzFNRE01T0M1cWNHY3w1OGNhMzAzZjM4MDRiMzExMWY2YmY0YTcwZDg1NmJiYmYwYjdhODQwOTcyY2RhYjY2MDk5NWZhYjMxZmNmMzBl"
+        },
+        {
+            "altText": "Photosmart E317 Digital Camera",
+            "format": "thumbnail",
+            "galleryIndex": 0,
+            "imageType": "GALLERY",
+            "url": "/medias/?context=bWFzdGVyfGltYWdlc3wyMDYxfGltYWdlL2pwZWd8YVcxaFoyVnpMMmhtTnk5b1l6TXZPRGM1TnpNMU5qRTVOVGczTUM1cWNHY3w3NDc0YmM4OWFmYWFjYjhlZTdmYjUyNmYyMzI4ZDM3ZWIxZWIxYTQxOTg5NzZhMjNmMTljNjgxYTljNDFlMTk1"
+        }
+    ],
+    "manufacturer": "HP",
+    "multidimensional": false,
+    "name": "Photosmart E317 Digital Camera",
+    "numberOfReviews": 22,
+    "price": {
+        "currencyIso": "USD",
+        "formattedValue": "$114.12",
+        "priceType": "BUY",
+        "value": 114.12
+    },
+    "priceRange": {},
+    "taskAttribute": "task",
+    "stock": {
+        "isValueRounded": false,
+        "stockLevel": 314,
+        "stockLevelStatus": "inStock"
+    },
+    "summary": "Point and shoot simplicity in a 5 MP camera.",
+    "url": "/Open-Catalogue/Cameras/Digital-Cameras/Digital-Compacts/Photosmart-E317-Digital-Camera/p/300938"
+}
